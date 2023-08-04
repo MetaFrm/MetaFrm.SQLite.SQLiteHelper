@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>MetaFrm</RootNamespace>
@@ -22,31 +21,26 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>meta;framework;dotnet;maui;</PackageTags>
     <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss:fffZ"))</SourceRevisionId>
-    <Version>6.0.0.0</Version>
+    <Version>6.0.0.57</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\src\SQLiteHelper.cs" Link="SQLiteHelper.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="icon.ico" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0.54" />
+    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0.57" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
     <PackageReference Include="SQLitePCLRaw.core" Version="2.1.5" />
     <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.5" />
     <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.5" />
   </ItemGroup>
-
   <ItemGroup>
     <None Update="icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
 </Project>
