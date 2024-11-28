@@ -8,7 +8,7 @@ namespace MetaFrm.SQLite
     /// <typeparam name="T"></typeparam>
     public class SQLiteHelper<T> : ISQLiteHelper<T> where T : new()
     {
-        private static readonly Dictionary<string, SQLiteAsyncConnection> connectionDictionary = new();
+        private static readonly Dictionary<string, SQLiteAsyncConnection> connectionDictionary = [];
 
 
         private static async Task ConnectionDB(string fullName)
@@ -77,7 +77,7 @@ namespace MetaFrm.SQLite
                     return await table.ToListAsync();
             }
 
-            return new List<T>();
+            return [];
         }
 
         /// <summary>
