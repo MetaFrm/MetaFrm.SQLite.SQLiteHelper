@@ -15,13 +15,13 @@
     <Company>Meta Framework</Company>
     <Description>Meta Framework
 (Multi platform &amp; Meta management)</Description>
-    <Copyright>Copyright 2024. dsun all rights reserved.</Copyright>
+    <Copyright>Copyright 2025. dsun all rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/MetaFrm/MetaFrm.SQLite.SQLiteHelper</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MetaFrm/MetaFrm.SQLite.SQLiteHelper</RepositoryUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>meta;framework;dotnet;maui;</PackageTags>
     <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss:fffZ"))</SourceRevisionId>
-    <Version>8.0.4.3</Version>
+    <Version>8.0.4.5</Version>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\src\SQLiteHelper.cs" Link="SQLiteHelper.cs" />
@@ -30,7 +30,7 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net8.0" Version="8.0.4.3" />
+    <PackageReference Include="MetaFrm.Core.net8.0" Version="8.0.4.5" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
     <PackageReference Include="SQLitePCLRaw.core" Version="2.1.10" />
