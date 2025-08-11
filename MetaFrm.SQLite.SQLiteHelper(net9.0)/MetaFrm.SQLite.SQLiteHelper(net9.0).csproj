@@ -21,11 +21,11 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>meta;framework;dotnet;maui;</PackageTags>
     <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss:fffZ"))</SourceRevisionId>
-    <Version>9.0.4.55</Version>
+    <Version>9.0.4.57</Version>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\readme.md" Pack="true" PackagePath="\"/>
+    <None Include="..\readme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\src\SQLiteHelper.cs" Link="SQLiteHelper.cs" />
@@ -34,12 +34,12 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net9.0" Version="9.0.4.55" />
+    <PackageReference Include="MetaFrm.Core.net9.0" Version="9.0.4.57" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.11" />
-    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.11" />
-    <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.11" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="3.0.1" />
+    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="3.0.1" />
+    <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="3.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="icon.png">
